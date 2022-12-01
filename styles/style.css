@@ -10,7 +10,7 @@
   font-family: "Quicksand", Arial;
   scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
@@ -18,7 +18,7 @@
 }
 ::-webkit-scrollbar-thumb {
   background-color: #328fcd;
-}
+} */
 body {
   background-color: #efefef;
 }
