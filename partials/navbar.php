@@ -15,7 +15,8 @@
     <a href="<?= $index ?>" class="logo">MarketPlace</a>
     <ul>
         <li><a <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? "class='active'" : "" ?> href="index.php">Home</a></li>
-        <li><a <?= basename($_SERVER['PHP_SELF']) == 'product.php' || 'detail-product.php' ? "class='active'" : "" ?> href="product.php">Products</a></li>
+        <li><a <?= basename($_SERVER['PHP_SELF']) == 'product.php' || basename($_SERVER['PHP_SELF']) == 'detail-product.php' ? "class='active'" : "" ?> 
+        href="product.php">Products</a></li>
         <li><a <?= basename($_SERVER['PHP_SELF']) == 'category.php' ? "class='active'" : "" ?> href="category.php">Category</a></li>
         <li><a <?= basename($_SERVER['PHP_SELF']) == 'seller.php' ? "class='active'" : "" ?> href="seller.php">Seller</a></li>
         <?php if(isset($_SESSION['login']) && $_SESSION['level'] == 'user') :?>

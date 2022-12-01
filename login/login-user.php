@@ -15,7 +15,9 @@
             <input class="form-input" type="email" name="name" id="name" placeholder="Email" required>
             <input class="form-input" type="password" name="pass" id="pass" placeholder="Password" required>
             <input style="width: 100%; text-align: center;" class="form-submit" type="submit" name="login-submit" value="Login to account">
-            <a href="../register-user.php" class="form-submit register">Don't have account? <b> Register Here</b></a>
+            <!-- <a href="../register-user.php" class="form-submit register">Don't have an account? <b> Register Here</b></a> -->
+            <p class="sign-button">Don't have an account? 
+            <a href="../register-user.php"><b>Signup</b></a></p>
         </form>
     </div>
     <script src="../js/jquery-3.6.1.min.js"></script>

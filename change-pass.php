@@ -26,7 +26,7 @@
                         <hr class="line">
                         <label for="pass1">Enter new password</label>
                         <input type="password" name="pass1" id="pass1" class="form-input" placeholder="Type your new password" required>
-                        <label for="pass2">Re-enter new password</label>
+                        <br><label for="pass2">Re-enter new password</label>
                         <input type="password" name="pass2" id="pass2" class="form-input" placeholder="Type again your new password" required>
                         <div class="flex">
                             <div class="flex">

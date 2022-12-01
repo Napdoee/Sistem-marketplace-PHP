@@ -29,30 +29,18 @@
     <title>Become an Seller</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    <nav>
-        <a href="index.php" class="logo">MarketPlace</a>
-        <ul>
-            <li><a href="./login/login-seller.php">Login</a></li>
-        </ul>
-    </nav>
+<body class="bg-seller bg-center">
     <main>
         <div class="section">
-            <div class="container-60">
-                <div class="head-content">
-                    <div class="head-title">Register account Seller</div>
-                </div>
+            <div style="width: 50%; margin: 0 auto">
                 <div class="box" style="border-radius: 10px;">
+                    <h2 style="margin: 5px 0px 8px; text-align: center;">Signup Seller</h2>
                     <form method="post" autocomplete="off" id="SellerRegister">
-                        <label for="company">Company Name</label>
                         <input type="text" name="company" id="company" class="form-input" placeholder="Type your Company Name" required>
-                        <label for="user">Username</label>
                         <input type="text" name="user" id="user" class="form-input" placeholder="Type your username" required>
-                        <label for="pass">Password</label>
                         <input type="password" name="pass" id="pass" class="form-input" placeholder="Type your passowrd" required>
-                        <label for="telp">Phone Number</label>
                         <input type="text" name="telp" id="telp" class="form-input" placeholder="Type your phone number" required>
-                        <input type="submit"id="BtnRegister" name="register-seller" value="Register account" class="form-submit">
+                        <input style="width: 100%; text-align: center" type="submit" id="BtnRegister" name="register" value="Register account" class="form-submit seller">
                     </form>
                 </div>
             </div>

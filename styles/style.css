@@ -72,6 +72,11 @@ body {
   border-radius: 5px;
   margin: 10px 0px;
 }
+
+.form-submit:hover {
+  opacity: 0.5;
+}
+
 .form-submit .seller {
   background-color: #e9792e;
 }
@@ -363,13 +368,7 @@ header {
   border: none;
   margin: 1px -8px -10px;
 }
-.register b {
-  margin: 0px 5px;
-  color: #1b17ff;
-}
-.register b:hover {
-  text-decoration: underline;
-}
+
 .modal {
   display: none;
   position: fixed;
@@ -649,17 +648,27 @@ footer h3 {
 
 .form-input.error {
   color: #ff0000;
-  width: 100%;
   background-color: #faebd7;
   border: 1px solid;
 }
 label.error {
   color: #ff0000;
-  width: 100%;
-  display: block;
   margin: -3px 0px 8px;
+  font-size: 14px;
 }
 .bg-seller {
   background: url(../assets/img/seller-background.png) no-repeat;
   background-size: cover;
+}
+
+.sign-button {
+  color: #333;
+  font-size: 14px;
+}
+
+.sign-button b {
+  color: #1b17ff;
+}
+.sign-button b:hover {
+  text-decoration: underline;
 }
